@@ -78,3 +78,30 @@ table th {
 table tr:nth-child(even) {
   background-color: #f9f9f9;
 }
+
+/* span 글씨 크기 정의 */
+summary span {
+  font-size: 1.5em; /* h3 크기와 유사한 크기 */
+  font-weight: bold; /* 글씨 두껍게 */
+}
+
+/*표 반응형 스타일 추가*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+  word-wrap: break-word; /* 긴 단어를 자동으로 줄바꿈 */
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    overflow-x: auto; /* 가로 스크롤 추가 */
+    display: block;
+    white-space: nowrap; /* 줄바꿈 방지 */
+  }
+}
