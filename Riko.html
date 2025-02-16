@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>스텔라이브 오리지널곡&커버곡 노래방 번호 사이트</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -25,10 +26,10 @@
     </nav>
   </header>
   <main>
-    <h2>곡 목록</h2>
-    
     <!-- 오리지널곡 -->
-    <h3>오리지널곡</h3>
+    <details>
+    <summary><span>오리지널곡</span></summary>
+      <ul>
     <table border="1">
       <thead>
         <tr>
@@ -49,9 +50,13 @@
         </tr>
       </tbody>
     </table>
-  
+      </ul>
+    </details>
+    
     <!--커버곡-->  
-    <h3>커버곡</h3>
+    <details>
+    <summary><span>커버곡</span></summary>
+      <ul>
     <table border="1">
       <thead>
         <tr>
@@ -161,6 +166,8 @@
         </tr>
       </thead>
     </table>
+      </ul>
+    </details>
   <footer>
     <ul>
       <p>X: @RakuSei_skrtjd</p>
