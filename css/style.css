@@ -128,12 +128,6 @@ th, td {
   margin-bottom: 8px;
 }
 
-.card-content {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
 .song-title {
   font-size: 1.1em;
   font-weight: bold;
@@ -143,4 +137,6 @@ th, td {
 .song-extra {
   font-size: 0.9em;
   color: #666;
+  margin-top: 5px;
 }
+
