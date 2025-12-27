@@ -788,5 +788,34 @@
       <p>팬카페 닉네임: 낙성</p>
     </ul>-->
   </footer>
+  
+<!-- 공지 팝업 -->
+<div id="noticePopup" class="popup-overlay">
+  <div class="popup-content">
+    <h2>📢 공지사항</h2>
+    <p>
+      지금까지 본 웹페이지를 이용해 주신 분들께 진심으로 감사드립니다.<br><br>
+
+      2026년 1월 1일부터 본 웹페이지의 업데이트는 개인적인 사정으로 인해<br>
+      <strong>일시적으로 중단</strong>되며,<br>
+      이후에는 <strong>비정기적인 업데이트</strong>가 일괄적으로 진행될 예정입니다.<br><br>
+
+      다시 한번 지금까지 이용해 주셔서 감사드리며,<br>
+      추후 개편과 함께 다시 찾아뵙겠습니다.<br><br>
+
+      <strong style="color:#d9534f;">
+        *** 스텔 노래방책 어플은 지금과 같이 정상 운영됩니다 ***
+      </strong>
+    </p>
+    <button onclick="closePopup()">확인</button>
+  </div>
+</div>
+
+<script>
+  function closePopup() {
+    document.getElementById("noticePopup").style.display = "none";
+  }
+</script>
+
 </body>
 </html>
